@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tweets">التغريدات</string>
+    <string name="lists">القوائم</string>
+    <string name="settings">الضبط</string>
+</resources>

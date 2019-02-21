@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+
+        app:startDestination="@id/tweetsFragment">
+
+    <fragment
+            android:id="@+id/tweetsFragment"
+            android:name="com.example.tweeper.TweetsFragment"
+            android:label="@string/tweets"
+            tools:layout="@layout/tweets_fragment" />
+    <fragment
+            android:id="@+id/listsFragment"
+            android:name="com.example.tweeper.ListsFragment"
+            android:label="@string/lists"
+            tools:layout="@layout/lists_fragment" />
+    <fragment
+            android:id="@+id/settingsFragment"
+            android:name="com.example.tweeper.SettingsFragment"
+            android:label="@string/settings" />
+    <fragment
+            android:id="@+id/loginFragment"
+            android:name="com.example.tweeper.LoginFragment"
+            android:label="login_fragment"
+            tools:layout="@layout/login_fragment" />
+</navigation>
